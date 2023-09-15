@@ -1,10 +1,6 @@
 # Refactoring Project
 
-Please do not fork this repository, but use this repository as a template for your refactoring project. Make Pull Requests to your own repository even if you work alone and mark the checkboxes with an `x`, if you are done with a topic in the pull request message.
-
-## Project for today
-
-The task for today you can find in the [project-for-today.md](./project-for-today.md) file.
+In this repository you can find my first MLE project.
 
 ## Setup
 
@@ -16,3 +12,8 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+## What are the steps you took to complete the project?
+## What are the challenges you faced?
+
+## What are the things you would do differently if you had more time?

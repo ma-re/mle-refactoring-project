@@ -47,6 +47,9 @@ print("Data transformation successful")
 print("Number of columns: ", housing_data_cleaned_df.shape[1])
 print("Number of row: ", housing_data_cleaned_df.shape[0])
 
+# Create small dataframe 
+housing_data_small = housing_data_cleaned_df[['id', 'price', 'bedrooms', 'center_distance', 'last_known_change']]
+
 # Save dataframe in data folder
-housing_data_cleaned_df.to_csv("../data/housing_data_cleaned.csv", index=False)
+housing_data_small.to_csv("../data/housing_data_cleaned.csv", index=False)
 print("Saving data successful")
